@@ -1,0 +1,13 @@
+{
+  "name": "nodencov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ns_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "cross-env NODE_ENV=production env_config=sit node build/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
